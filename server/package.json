@@ -19,5 +19,11 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "config": {
+    "mongodbMemoryServer": {
+      "downloadDir": "./data/mongodb-binaries",
+      "skipMD5": true
+    }
   }
 }
