@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep these private)
+.env
+
+# Build output
+client/dist/
+client/dist-ssr/
+
+# Database data (embedded MongoDB)
+server/data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"C:\\\\Users\\\\nalis\\\\Desktop\\\\health\\\\server\\\\.env.example\" \"C:\\\\Users\\\\nalis\\\\Desktop\\\\health\\\\server\\\\.env\")",
+      "Bash(copy \"C:\\\\Users\\\\nalis\\\\Desktop\\\\health\\\\client\\\\.env.example\" \"C:\\\\Users\\\\nalis\\\\Desktop\\\\health\\\\client\\\\.env\")",
+      "Bash(npm install *)",
+      "Bash(npx vite *)",
+      "Bash(node -e ' *)",
+      "Bash(node index.js)",
+      "Bash(curl -s http://localhost:5000/api/health)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :5000)",
+      "Bash(taskkill /F /PID 26844)",
+      "PowerShell(Stop-Process -Id 26844 -Force -ErrorAction SilentlyContinue)",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/register -H 'Content-Type: application/json' -d '{\"name\":\"Test Doctor\",\"email\":\"doctor@test.com\",\"password\":\"test123\",\"role\":\"doctor\",\"phone\":\"9876543210\"}')",
+      "Bash(mongod --version)",
+      "Bash(where mongod *)",
+      "Bash(curl -s http://localhost:5173)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/register -H 'Content-Type: application/json' -d '{\"name\":\"Dr Priya\",\"email\":\"doctor@pchis.com\",\"password\":\"test123\",\"role\":\"doctor\"}')",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/register -H 'Content-Type: application/json' -d '{\"name\":\"Nurse Radha\",\"email\":\"nurse@pchis.com\",\"password\":\"test123\",\"role\":\"nurse\"}')",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/register -H 'Content-Type: application/json' -d '{\"name\":\"Ravi Kumar\",\"email\":\"patient@pchis.com\",\"password\":\"test123\",\"role\":\"patient\"}')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/login -H 'Content-Type: application/json' -d '{\"email\":\"patient@pchis.com\",\"password\":\"test123\"}')",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s -X POST http://localhost:5000/api/auth/login -H 'Content-Type: application/json' -d '{\"email\":\"nurse@pchis.com\",\"password\":\"test123\"}')",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  }
+}
