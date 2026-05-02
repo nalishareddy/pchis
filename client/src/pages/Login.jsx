@@ -110,7 +110,7 @@ const Login = () => {
           <div className="mt-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Demo Accounts</p>
             <div className="space-y-1 text-xs text-gray-600">
-              <p>Register as <strong>Patient</strong>, <strong>ASHA</strong>, or <strong>Doctor</strong> to test</p>
+              <p>Register as <strong>Patient</strong>, <strong>Nurse</strong>, or <strong>Doctor</strong> to test</p>
             </div>
           </div>
         </div>
